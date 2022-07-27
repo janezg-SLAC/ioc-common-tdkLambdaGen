@@ -1,32 +1,20 @@
-# Prerequisites
-*.d
+# EPICS generated folders
+dbd
+lib
+bin
+children/build
+db
+archive
+autosave
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# EPICS object files
+**/O.*
 
-# Precompiled Headers
-*.gch
-*.pch
+# Generated files
+**envPaths
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# Python temp files
+__pycache__/
 
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+# Dev files
+run.sh
