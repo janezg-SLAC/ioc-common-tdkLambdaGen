@@ -19,7 +19,7 @@
 # 	GEN8-180      180.00     000.00     2
 # 	GEN12.5-60     60.000     00.000    3
 # 	GEN12.5-120   120.00     000.00     2
-# 	GEN16-300     300.00     000.00     2
+# 	GEN16-310     310.00     000.00     2
 # 	GEN20-38       38.000     00.000    3
 # 	GEN20-76       76.00     000.00     2
 # 	GEN30-25       25.000     00.000    3
@@ -89,7 +89,7 @@
 file geneSys_psu.template
 { 
   pattern{ NAME   ,  SERIAL  , GENADR, DRVHV, HOPRV, IPRDRVH, IPRHOPR, PREC, OVPDRVH, OVPDRVL, UVLDRVH, UVLDRVL }
-         { $(DEV) ,  $(PORT) , $(ADR), 16   , 16   , 300    , 0      , 2   , 19     , 1      , 15.2   , 0       }
+         { $(DEV) ,  $(PORT) , $(ADR), 16   , 16   , 310    , 0      , 2   , 19     , 1      , 15.2   , 0       }
 }
 
 # End of file
