@@ -3,8 +3,8 @@ beginScreenProperties
 major 4
 minor 0
 release 1
-x 119
-y 218
+x 279
+y 216
 w 1002
 h 480
 font "helvetica-medium-r-18.0"
@@ -19,7 +19,6 @@ ctlBgColor1 index 34
 ctlBgColor2 index 35
 topShadowColor index 37
 botShadowColor index 44
-snapToGrid
 gridSize 5
 endScreenProperties
 
@@ -1295,7 +1294,7 @@ x 735
 y 190
 w 50
 h 10
-controlPv "$(NAME):GETCUR.HOPR"
+controlPv "$(NAME):SETCUR.DRVH"
 format "decimal"
 font "helvetica-medium-r-8.0"
 fontAlign "right"

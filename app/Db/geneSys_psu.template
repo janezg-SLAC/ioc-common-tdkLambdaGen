@@ -585,7 +585,6 @@ record(stringin, "$(NAME):CMDGET") {
 }
 
 # Status Control Commands
-#
 record(stringin, "$(NAME):GETSTT") {
   field(DESC, "PSU Status")
   field(DTYP, "stream")
@@ -599,7 +598,6 @@ record(stringin, "$(NAME):GETSTT") {
 # conditional registers
 #
 #   Fault Condition Register
-#
 record(mbbiDirect, "$(NAME):FCR") {
   field(DESC, "read fault condition reg")
   field(DTYP, "stream")
@@ -688,8 +686,6 @@ record(bi, "$(NAME):FLT-ENA") {
   field(SCAN, "$(DSCAN) second")
 }
 
-#
-#
 record(stringout, "$(NAME):SETFENA") {
   field(DESC, "Set Fault Enable Reg")
   field(DTYP, "stream")
@@ -721,8 +717,6 @@ record(stringin, "$(NAME):GETFEVE") {
   field(SDIS, "$(NAME):COMSTAT")
 }
 
-#
-#
 record(stringout, "$(NAME):SETSENA") {
   field(DESC, "Set Status Enable Reg")
   field(DTYP, "stream")
@@ -857,7 +851,6 @@ record(bi, "$(NAME):STAT-LCL") {
   field(SCAN, "$(DSCAN) second")
 }
 
-#
 record(calcout, "$(NAME):CALCRES") {
   field(DESC, "calc load resistance")
   field(SCAN, "$(DSCAN) second")

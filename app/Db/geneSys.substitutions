@@ -89,7 +89,7 @@
 file geneSys_psu.template
 { 
   pattern{ NAME   ,  SERIAL  , GENADR, DRVHV, HOPRV, IPRDRVH, IPRHOPR, PREC, OVPDRVH, OVPDRVL, UVLDRVH, UVLDRVL }
-         { $(DEV) ,  $(PORT) , $(ADR), 16   , 16   , 310    , 0      , 2   , 19     , 1      , 15.2   , 0       }
+         { $(DEV) ,  $(PORT) , $(ADR), 16   , 16   , 310    , 310      , 2   , 19     , 1      , 15.2   , 0       }
 }
 
 # End of file
