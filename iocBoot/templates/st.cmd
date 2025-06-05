@@ -45,9 +45,9 @@ dbLoadRecords("db/save_restoreStatus.db",  "P=$(IOC_PV):")
 # Note: 
 # The macro ADR is the address of the supply,
 # which is set on the front panel (default=6)
-# Note: the default port speed on device is set to 9600
+# Note: the default port speed on device is set to 9600, COMSPD parameter bellow is just for gui display, actual communication speed is set in moxa/digi terminal server
 $$LOOP(GENESYS)
-dbLoadRecords("db/geneSys.db","DEV=$$BASE,PORT=GENESYS$$INDEX,ADR=6,COMSPD=9600,COMDEV=$$PORT,DSCAN=$$IF(DATASCAN,$$DATASCAN,1),CSCAN=$$IF(CONFSCAN,$$CONFSCAN,10)")
+dbLoadRecords("db/geneSys.db","DEV=$$BASE,PORT=GENESYS$$INDEX,ADR=$$IF(ADR,$$ADR,6),COMSPD=$$IF(COMSPD,$$COMSPD,9600),COMDEV=$$PORT,DSCAN=$$IF(DATASCAN,$$DATASCAN,1),CSCAN=$$IF(CONFSCAN,$$CONFSCAN,5)")
 $$ENDLOOP(GENESYS)
 
 # Setup autosave

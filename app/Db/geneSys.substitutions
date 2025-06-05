@@ -85,7 +85,7 @@
 #
 #==============================================================
 #
-#Set for model GEN16-300
+# Set for model GEN 16-300
 file geneSys_psu.template
 { 
   pattern{ NAME   ,  SERIAL  , GENADR, DRVHV, HOPRV, IPRDRVH, IPRHOPR, PREC, OVPDRVH, OVPDRVL, UVLDRVH, UVLDRVL }

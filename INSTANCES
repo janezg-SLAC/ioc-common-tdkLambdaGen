@@ -7,7 +7,7 @@ LOCATION - The location of this IOC.
 
 Template instances:
 
-LEYBOLD:
+GENESYS:
     BASE          - The base PV name.
     PORT          - The terminal server:port where TDK-Lambda device connected.
     ASYNTRACE     - This should be set to turn on asyn tracing.
