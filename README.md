@@ -1,2 +1,2 @@
-# ioc-genesys
-TDK-Lambda Genesys IOC
+# ioc-common-tkdLambdaGen
+TDK-Lambda Genesys power supplies IOC
