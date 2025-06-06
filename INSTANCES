@@ -1,9 +1,10 @@
 Template variables:
 
-IOCTOP   - The ioc/common directory for this IOC.
-TOP      - The ioc/xxx directory for this IOC, where xxx is the three-letter hutch.
+RELEASE  - The directory of the parent IOC.
+ARCH     - Defines the target hardware architecture of the IOC build.
 ENGINEER - The engineer responsible for this IOC.
 LOCATION - The location of this IOC.
+IOC_PV   - Base PV name for this IOC. 
 
 Template instances:
 
@@ -15,4 +16,3 @@ GENESYS:
     CONFSCAN      - The rate at which the IOC scans configuration fields. Default is every 10 seconds.
     ADR=6         - Default address of TDK-Lambda device
     COMSPD=9600   - Default comunication speed, doesn't do anything with this value.
-    COMDEV=$$PORT - Communication device where the TDK-Lambda connected
