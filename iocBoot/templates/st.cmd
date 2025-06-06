@@ -1,4 +1,4 @@
-#!$$IOCTOP/bin/$$IF(ARCH,$$ARCH,linux-x86_64)/geneSys
+#!$$IOCTOP/bin/$$IF(ARCH,$$ARCH,rhel7-x86_64)/geneSys
 
 < envPaths
 epicsEnvSet( "ENGINEER" , "$$ENGINEER" )
